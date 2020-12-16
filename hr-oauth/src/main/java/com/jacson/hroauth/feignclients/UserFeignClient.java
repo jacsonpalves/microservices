@@ -1,4 +1,4 @@
-package com.jacson.hroauth.feigclients;
+package com.jacson.hroauth.feignclients;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
@@ -13,5 +13,5 @@ import com.jacson.hroauth.entities.User;
 public interface UserFeignClient {
 
 	@GetMapping(value = "/search")
-	ResponseEntity<User> findByEmail(@RequestParam String email);
+	ResponseEntity<User> findByEmail(@RequestParam String email);	
 }

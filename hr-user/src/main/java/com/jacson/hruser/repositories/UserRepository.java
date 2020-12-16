@@ -1,4 +1,3 @@
-
 package com.jacson.hruser.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
